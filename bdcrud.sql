@@ -4,7 +4,7 @@
 --
 -- Host: 127.0.0.1
 -- Tempo de geração: 29/11/2024 às 02:23
--- Versão do servidor: 10.4.32-MariaDB
+-- Versão do servidor: 10.4.32-Maria
 -- Versão do PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -64,9 +64,9 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`id`, `nome`, `email`, `senha`, `fone`, `sexo`) VALUES
 (6, 'Leonzinho', 'a@a.com', '$2y$10$SHRQgeFnaEJBOUU76Xa.R.mk.zpTIwPwLh6CB6CrsqDxesdwLUFXe', '5151515151', 'M'),
-(7, 'duda', 'e@h.com', '$2y$10$VziBlsCI4ImMzP9Oj1kIheXP7GgMOFPDel9yl7iL4gs4x.h2R5JNO', '5195996555', 'F'),
-(8, 'Danrlei', 'dan@gmailo.com', '$2y$10$9N/5bkL0Yc2WOCCAaPW6SeTWJXIiUDOQslXEorK5fAumxE0zb37D6', '525252552', 'M'),
-(9, 'duda', 'santos@gmail.com', '$2y$10$3dYeGkI.XHewvpU8KlLC1uoy2Ko9b2jAQJIwwmepRWMKJst2P0kpW', '5195996555', 'F');
+(7, 'maria', 'e@h.com', '$2y$10$VziBlsCI4ImMzP9Oj1kIheXP7GgMOFPDel9yl7iL4gs4x.h2R5JNO', '5195996555', 'F'),
+(8, 'mikael', 'mika@gmailo.com', '$2y$10$9N/5bkL0Yc2WOCCAaPW6SeTWJXIiUDOQslXEorK5fAumxE0zb37D6', '525252552', 'M'),
+(9, 'maria', 'maria@gmail.com', '$2y$10$3dYeGkI.XHewvpU8KlLC1uoy2Ko9b2jAQJIwwmepRWMKJst2P0kpW', '5195996555', 'F');
 
 --
 -- Índices para tabelas despejadas
